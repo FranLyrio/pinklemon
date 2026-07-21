@@ -1,0 +1,7 @@
+node_modules
+dist
+.next
+storybook-static
+.DS_Store
+*.lock
+yarn.lock
