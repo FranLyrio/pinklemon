@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "build": "echo 'build configs - ainda sem bundler configurado'"
+  },
   "files": [
     "tsconfig.base.json",
     "eslint-preset.js",

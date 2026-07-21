@@ -5,9 +5,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "turbo run lint",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "turbo run build",
+    "dev": "turbo run dev"
   },
   "workspaces": [
     "apps/*",
@@ -28,5 +30,6 @@
     "tsx": "^4.23.1",
     "turbo": "^2.10.5",
     "typescript": "^5.4.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }

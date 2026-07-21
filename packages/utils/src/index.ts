@@ -1,5 +1,3 @@
-import { User } from '@sprout/types';
-
-export function greetUser(user: User): string {
+export function greetUser(user: { name: string }): string {
   return `Olá, ${user.name}!`;
 }

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
-  "dependencies": {
-    "@sprout/types": "*"
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "build": "echo 'build utils - ainda sem bundler configurado'"
   }
 }
