@@ -3,4 +3,6 @@
 /.turbo
 /**/.turbo
 /.DS_Store
+/**/dist.DS_Store
+
 /**/dist
