@@ -14,7 +14,7 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      typescript({ tsconfig: './tsconfig.json', declaration: false }),
+      typescript({ tsconfig: './tsconfig.json', compilerOptions: { declaration: false } }),
     ],
   },
   {
