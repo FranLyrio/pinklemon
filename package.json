@@ -13,7 +13,8 @@
   },
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "tooling/*"
   ],
   "devDependencies": {
     "@commitlint/cli": "^21.2.1",

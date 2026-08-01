@@ -1,0 +1,11 @@
+{
+  "name": "@sprout/configs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "tsconfig.base.json",
+    "eslint-preset.js",
+    "prettier.config.js"
+  ]
+}
