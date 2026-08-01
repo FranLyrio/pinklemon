@@ -12,7 +12,7 @@
     "react-dom": "^18",
     "react": "^18",
     "next": "13.5.11",
-    "@sprout/ui": "*"
+    "@pinklemon/ui": "*"
   },
   "devDependencies": {
     "typescript": "^5",
