@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['@sprout/ui'],
+  transpilePackages: ['@pinklemon/ui'],
 };
 
 module.exports = nextConfig;

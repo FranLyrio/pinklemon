@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: [require.resolve('@sprout/configs/eslint-preset.js')],
+  extends: [require.resolve('@pinklemon/configs/eslint-preset.js')],
   ignorePatterns: [
     '**/dist/**',
     '**/.next/**',

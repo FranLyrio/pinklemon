@@ -1,1 +1,1 @@
-module.exports = require('@sprout/configs/prettier.config.js');
+module.exports = require('@pinklemon/configs/prettier.config.js');
