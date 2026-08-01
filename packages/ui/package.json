@@ -1,6 +1,6 @@
 {
-  "name": "@sprout/ui",
-  "version": "0.0.1",
+  "name": "@pinklemon/ui",
+  "version": "1.0.0",
   "main": "dist/index.cjs.js",
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",

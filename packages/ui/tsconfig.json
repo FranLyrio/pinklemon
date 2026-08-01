@@ -1,5 +1,5 @@
 {
-  "extends": "@sprout/configs/tsconfig.base.json",
+  "extends": "@pinklemon/configs/tsconfig.base.json",
   "compilerOptions": {
     "ignoreDeprecations": "6.0",
     "outDir": "dist",
